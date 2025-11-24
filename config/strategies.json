@@ -1,0 +1,16 @@
+{
+    "global_settings": {
+        "max_daily_drawdown_percent": 3.0,
+        "max_open_positions": 3,
+        "dry_run": true
+    },
+    "active_bots": [
+        {
+            "id": "btc_conservative_01",
+            "strategy_file": "btc_hybrid_trend.py",
+            "symbol": "BTCUSDT",
+            "timeframe": "15m",
+            "leverage": 3
+        }
+    ]
+}
