@@ -6,3 +6,8 @@ fastapi
 uvicorn
 pydantic
 requests
+
+sqlalchemy
+redis
+
+flask
